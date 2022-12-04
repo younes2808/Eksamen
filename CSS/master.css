@@ -407,6 +407,9 @@ font-size: 1.6rem;
 .rett img{
 height: 15vw;
 }
+.rett:nth-child(odd){
+margin-left: none;
+}
 .rett-tittel{
 font-size: 2rem;
 }
