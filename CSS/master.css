@@ -402,10 +402,10 @@ padding: 0.1rem;
 padding-bottom: 2rem;
 }
 .rett:nth-child(even){
-margin-left: 2%;
+margin-left: 0.8%;
 }  
 rett:nth-child(odd){
-margin-left: 2%;
+margin-left: 0.8%;
 }  
 .rett p{
 font-size: 1.6rem;
