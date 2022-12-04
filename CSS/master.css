@@ -395,9 +395,8 @@ width: 100%;
 height: 100%;
 grid-template-columns: auto;
 text-align: center;
-right:1.2rem;
 top: 7rem;
-float: right;
+float: left;
 padding: 0.1rem;
 padding-bottom: 2rem;
 }
