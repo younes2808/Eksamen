@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./../CSS/master.css">
+<meta name="viewport" content="initial-scale=1">
+<title>Tilgjengelighet</title>
+</head>
+<body>
+
+  <!--Her er Navigasjonsmenyen-->
+        <div class="sidebar"> 
+            <header id="overskrift">  
+                    <h1>OsloMET<sub>Events</sub> 
+                
+                    <label onclick="visKnapper()">
+                        <img src="./../Bilder/hamburger-meny.png" id="knapp">
+                    </label>
+                </h1>     
+            </header> 
+            <!--Her er knappene i navigasjonsmenyen-->
+            <a href="./../index.html" class="knapper" tabindex="0"> 
+              <span>Hjem</span>
+            </a>
+            <a href="./booking.html" class="knapper"> 
+              <span>Booking</span>
+            </a>
+            <a href="./kafe.html" class="knapper"> 
+              <span>Kafé</span>
+            </a>
+            <a href="./topical.html" class="knapper"> 
+              <span>Topical</span>
+            </a>
+          </div>
+    <!--Her slutter navigasjonsmenyen-->
+    <!-- Her starter innholdet-->
+    <article>
+        <h1>Tilgjengelighet og universell utforming</h1>
+                <p>
+                  Tilgjengelighet handler om å gjøre websiden tilgjengelig for flest mulig.
+                  Web Content Accessibility Guidelines (WCAG) er den internasjonale standarden
+                  for hvordan websider skal være bygd opp på best mulig måte. Dette kan testes 
+                  ved hjelp av ulike automatiske tester, og WCAG skal være noe man tenker på i 
+                  løpet av hele utviklingsprosessen. I vårt tilfelle så har vi brukt 3 ulike tester.  
+                </p>
+              <blockquote>
+                <p>
+                  LERA, WAVE Web Accessibillity Evaluation Toll og A11Y contrast checker 
+                </p>
+              </blockquote>
+                <p>
+                  Måten du bruker disse testene er at man publiserer nettsiden før man gjør 
+                  endringer basert på det disse testene sier, men det er en bedre måte å 
+                  gjøre websiden tilgjengelig på. Det er å bevisst designe websiden på en 
+                  måte som gjør at den er tilgjengelig fra starten av.
+                </p>
+        <figure>
+                <img src="https://cdn.pixabay.com/photo/2012/04/12/22/28/handicap-accessible-30927_960_720.png" alt="Bilde av rullestol"><!--CLKER. (April 24, 2012). Wheelchair [Bilde av rullestol]. Pixabay. https://pixabay.com/no/vectors/handikap-tilgjengelig-uf%c3%b8rhet-skilt-39397/-->
+        </figure>
+          <h2>Våre designvalg</h2>
+                <p>
+                  Kort oppsummert så er tiltak som gjør en webside mer tilgjengelig:  
+                </p>
+                <ul>
+                <li>Websiden kan navigeres ved hjelp av kun tastatur</li>
+                <li>Bruker headings korrekt</li>
+                <li>Høy kontrast</li>  
+                <li>Smart bruk av fonter og størrelser</li>
+                <li>Websiden må kunne brukes i mange ulike resolusjoner</li>
+                </ul>
+                <p>
+                  Dette er ulike ting vi har tatt hensyn til i løpet av utviklingsprosessen.
+                  Du kan for eksempel navigere siden ved hjelp av kun tastatur, og vi har
+                  brukt tabindex slik at viktige elementer kan nås ved hjelp av tastaturet. 
+                  Vi bruker headings på en korrekt måte, og alle bildene våre har alternative 
+                  tekster. Vi har designet websiden slik at den kan brukes på store og små skjermer,
+                  og vi har brukt rem fordi det er den beste måleenheten med tanke på tilgjengelighet.   
+                </p>
+        </article>
+        <script type="text/javascript" src="./../JS/index.js"></script> <!--NB! Viktig for at menyen skal funke på mobil-->
+        <!--Her slutter innholdet-->
+    </body>
+</html>

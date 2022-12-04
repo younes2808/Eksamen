@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./../CSS/master.css">
+    <meta name="viewport" mat="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--Jquery-->
+    <!--Ikonene er hentet fra Flaticon.com-->
+    <!--Bildene er hentet fra Pixabay.com-->   
+    <title>Kafe-meny</title>
+    </head>
+    <body>
+ 
+    <!--Her er koden for navigasjonsmenyen-->
+    <div class="sidebar">
+    <header id="overskrift"><h1>OsloMET<sub>kafé</sub>
+      <label onclick="visKnapper()">
+        <img src="./../Bilder/hamburger-meny.png" id="knapp">
+      </label>  
+    </h1>
+    </header>
+      <a href="#" class="knapper" data-div="forrett" tabindex="0"> 
+        <span>Forrett</span>
+      </a>
+      <a href="#" class="knapper" data-div="hovedrett"> 
+        <span>Hovedrett</span>
+      </a>
+      <a href="#" class="knapper" data-div="dessert"> 
+        <span>Dessert</span>
+      </a>
+      <a href="#" class="knapper" data-div="info"> 
+        <span>Informasjon</span>
+      </a>
+      <a href="./../index.html" class="knapper"> 
+        <span>Events</span>
+      </a>
+    </div>
+    <!--Her slutter koden for menyen-->
+
+
+    
+    <div id="retter">
+    <!--Her starter koden for forrettene -->
+    <div class="forrett mat">
+
+        <div class="rett" id="rett1">       
+           <img class="bilder" id="karbonadebrod" src="./../Bilder/kafe/karbonadesmorbrod.jpg" alt="karbonadebrød"> </img> <!-- Mogens Petersen. (Sept. 2, 2016). Sandwich [Bilde av karbonadesmørbrød]. Pixabay. https://pixabay.com/no/photos/sm%c3%b8rbr%c3%b8d-lam-lammekotelett-skiver-1639287/-->
+           <h1 class="rett-tittel"> Karbonadesmørbrød</h3>
+           <p> Ristet grovbrød med karbonade og remulade.</p>
+             
+             <div class="allergener"> <!-- Freepik. (ukjent).  [Bilde av  ]. flaticon. -->
+            <div class="allergen"> 
+              <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+              <span>Egg</span>
+            </div>
+           <div class="allergen">
+           <img src="./../Bilder/kafe/hvete.png" alt="Gluten"><!-- Freepik. (ukjent). Gluten  [Bilde av Gluten ]. flaticon.https://www.flaticon.com/free-icons/Gluten -->
+           <span>Gluten</span>
+           </div> 
+         
+           <div class="allergen">
+            <img src="./../Bilder/kafe/mustard.png" alt="Sennep"><!-- Freepik. (ukjent). Mustard  [Bilde av sennep]. flaticon.https://www.flaticon.com/free-icons/mustard -->
+            <Span>Sennep</Span>
+           </div>
+           </div>
+          <span class="pris">129,-</span>
+        </div>
+    
+        <div class="rett" id="rett2">
+            <img class="bilder" id="skagensmorbrod" src="./../Bilder/kafe/skagenssmorbrod.jpg" alt="Skagensmørbrød"> </img> <!-- Anna-Karin Pantzar. (Dec. 15, 2015). Shrimp [Bilde av skagensmørbrød]. Pixabay. https://pixabay.com/no/photos/reke-tomat-dill-sitron-1093239/-->
+            <h1 class="rett-tittel">Skagensmørbrød med Reker </h3>
+            <p> Ristet hvitt brød med reker i en majonesbasert blanding. </p>
+            <div class="allergener">
+              <div class="allergen">
+                <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                <span>Egg</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/hvete.png" alt="Gluten"><!-- Freepik. (ukjent). Gluten  [Bilde av Gluten ]. flaticon.https://www.flaticon.com/free-icons/Gluten -->
+                <span>Gluten</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/milk.png" alt="Melk"><!-- Freepik. (ukjent). Milk  [Bilde av Melk ]. flaticon.https://www.flaticon.com/free-icons/milk -->
+                <span>Melk</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/seashell.png" alt="Skalldyr"><!-- Freepik. (ukjent). Shellfish  [Bilde av skallfisk]. flaticon.https://www.flaticon.com/free-icons/shellfish-->
+                <span>Skalldyr</span>
+              </div>
+            </div>
+            <span class="pris">79,-</span>
+        </div>
+    
+        <div class="rett" id="rett3">
+            <img class="bilder" id="roastbeefsmorbrod" src="./../Bilder/kafe/roastbiff.jpg" alt="Roastbeefsmørbrød"> </img> <!-- Mogens Pettersen. (Aug. 10, 2016). Sandwich [Bilde av roastbiffsmørbrød]. Pixabay. https://pixabay.com/no/photos/sm%c3%b8rbr%c3%b8d-roastbiff-agurk-gulrot-1580353/-->
+            <h1 class="rett-tittel">Roastbeefsmørbrød </h3>
+            <p> Ristet grovbrød med premium roastbiff og remulade. </p>
+            <div class="allergener">
+            <div class="allergen">
+              <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+              <span>Egg</span>
+            </div>
+            <div class="allergen">
+              <img src="./../Bilder/kafe/hvete.png" alt="Gluten"><!-- Freepik. (ukjent). Gluten  [Bilde av Gluten ]. flaticon.https://www.flaticon.com/free-icons/Gluten -->
+              <span>Gluten</span>
+            </div>
+          </div>
+          <span class="pris">89,-</span>
+        </div>
+        
+        <div class="rett" id="rett4">
+                <img class="bilder" id="foccacia" src="./../Bilder/kafe/foccacia.jpg" alt="Foccacia"> </img> <!--  Diana Yanes (2018).Foccacia with olives, Pixabay. https://pixabay.com/no/photos/foccacia-med-oliven-smaker-3411841/?download-->
+                <h1 class="rett-tittel">Foccacia med Kylling & Salat </h3>
+                <p> Ovnsbakt Foccacia-brød med kryddret kylling og salat. </p> 
+                <div class="allergener">
+                  <div class="allergen">
+                    <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                  </div>
+                  <div class="allergen">
+                    <img src="./../Bilder/kafe/celery.png" alt="Selleri"><!-- Freepik. (ukjent). Celery  [Bilde av selleri]. flaticon.https://www.flaticon.com/free-icons/celery -->
+                    <span>Selleri</span>
+                  </div>
+                </div>
+                <span class="pris">99,-</span>
+            </div>
+          </div>
+    <!--Her slutter koden for forrettene-->        
+    <!--Her starter koden for hovedrettene-->  
+    <div class="hovedrett mat" id="Retter2">
+       
+        <div class="rett" id="hovedrett1" >
+            <img class="bilder" id="kyllingburger" src="./../Bilder/kafe/kyllingburger.jpg" alt="kyllingburger"> </img> <!-- Mark Tolentino. (Nov. 19, 2017). Chicken burger [Bilde av en kyllingburger ]. Pixabay. https://pixabay.com/no/photos/kylling-burger-lunsj-2953388/-->
+            <h1 class="rett-tittel">Kylling Burger </h3>
+            <p> Fritert kylling, salat, tomat, rødløk og ranchdressing. </p>
+            <div class="allergener">
+              <div class="allergen">
+                <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                <span>Egg</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/hvete.png" alt="Gluten"><!-- Freepik. (ukjent). Gluten  [Bilde av Gluten ]. flaticon.https://www.flaticon.com/free-icons/Gluten -->
+                <span>Gluten</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/milk.png" alt="Melk"><!-- Freepik. (ukjent). Milk  [Bilde av Melk ]. flaticon.https://www.flaticon.com/free-icons/milk -->
+                <span>Melk</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/sulfite.png" alt="Sulfitt"><!-- Freepik. (ukjent). so2  [Bilde av sulfitt]. flaticon.https://www.flaticon.com/free-icons/so2 -->
+                <span>Sulfitt</span>
+              </div>
+            </div>
+            <span class="pris">169,-</span>
+        </div>
+        
+        <div class="rett" id="hovedrett2" >
+            <img class="bilder" id="vegburger" alt="vegetarburger" src="./../Bilder/kafe/vegetarburger.jpg"> </img> <!-- Grooveland Designs. (Jan. 22, 2020). Burger [Bilde av en vegetarburger]. Pixabay. https://pixabay.com/no/photos/burger-veggie-burger-r%C3%B8dbet-mat-4783972/-->
+            <h1 class="rett-tittel">Vegetar Burger </h3>
+            <p> Vegetar burger, røkt paprika og cheddarkrem, salat, tomat, rødløk og coleslaw. </p>
+            <div class="allergener">
+              <div class="allergen">
+                <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                <span>Egg</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/hvete.png" alt="Gluten"><!-- Freepik. (ukjent). Gluten  [Bilde av Gluten ]. flaticon.https://www.flaticon.com/free-icons/Gluten -->
+                <span>Gluten</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/milk.png" alt="Melk"><!-- Freepik. (ukjent). Milk  [Bilde av Melk ]. flaticon.https://www.flaticon.com/free-icons/milk -->
+                <span>Melk</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/sulfite.png" alt="Sulfitt"><!-- Freepik. (ukjent). so2  [Bilde av sulfitt]. flaticon.https://www.flaticon.com/free-icons/so2 -->
+                <span>Sulfitt</span>
+              </div>
+            </div>
+            <span class="pris">149,-</span>
+        </div>
+
+        <div class="rett" id="hovedrett3" >
+            <img class="bilder" id="entrecote" alt="Entrecôte" src="./../Bilder/kafe/entrecote.jpg"> </img> <!-- Reinhard Thrainer. (Oct. 7, 2019). Entrecote [Bilde av en Entrecote]. Pixabay. https://pixabay.com/no/photos/entrecote-okse-almochsee-kj%C3%B8tt-4530102/-->
+            <h1 class="rett-tittel">Entrecôte 200 g </h3>
+            <p> Entrecôte 200g, serveres med brokkolini, béarnaisesaus og poteter. </p>
+            <div class="allergener">
+              <div class="allergen">
+                <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                <span>Egg</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/milk.png" alt="Melk"><!-- Freepik. (ukjent). Milk  [Bilde av Melk ]. flaticon.https://www.flaticon.com/free-icons/milk -->
+                <span>Melk</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/celery.png" alt="Selleri"><!-- Freepik. (ukjent). Celery  [Bilde av selleri]. flaticon.https://www.flaticon.com/free-icons/celery -->
+                <span>Selleri</span>
+              </div>
+            </div>
+            <span class="pris">219,-</span>
+        </div>
+        
+        <div class="rett" id="hovedrett4" >
+            <img class="bilder" id="indrefilet" alt="Indrefilet" src="./../Bilder/kafe/indrefilet.jpg"> </img> <!-- Rita. (April 7, 2016). Pork Tenderloin [Bilde av en entrecote ]. Pixabay. https://pixabay.com/no/photos/indrefilet-av-svin-kj%C3%B8tt-svinekj%C3%B8tt-1314322/-->
+            <h1 class="rett-tittel">Indrefilet 200 g</h3>
+            <p> Indrefilet 200g, serveres med sopp, béarnaisesaus og poteter. </p>
+            <div class="allergener">
+              <div class="allergen">
+                <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                <span>Egg</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/milk.png" alt="Melk"><!-- Freepik. (ukjent). Milk  [Bilde av Melk ]. flaticon.https://www.flaticon.com/free-icons/milk -->
+                <span>Melk</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/celery.png" alt="Selleri"><!-- Freepik. (ukjent). Celery  [Bilde av selleri]. flaticon.https://www.flaticon.com/free-icons/celery -->
+                <span>Selleri</span>
+              </div>
+            </div>
+            <span class="pris">219,-</span>
+        </div>
+    </div>
+     <!--Her slutter koden for hovedrettene-->  
+
+
+      <!--Her starter koden for dessert--> 
+    <div class="dessert mat" id="Retter3">
+        
+        <div class= "rett" id="dessert1" >
+            <img class="bilder" id="brownie" src="./../Bilder/kafe/brownies.jpg" alt="Brownie"> </img> <!--  Yiannis Kamatsos. (Dec. 2, 2014). Brownies [Bilde av Brownies]. Pixabay. https://pixabay.com/no/photos/brownie-dessert-kake-s%C3%B8t-nydelig-548591/-->
+            <h1 class="rett-tittel">Brownie Med Nøtter</h3>
+            <p> Gode glutenfri brownies med smak av sjokolade og nøtter.</p>
+            <div class="allergener">
+              <div class="allergen">
+                <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                <span>Egg</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/hvete.png" alt="Gluten"><!-- Freepik. (ukjent). Gluten  [Bilde av Gluten ]. flaticon.https://www.flaticon.com/free-icons/Gluten -->
+                <span>Gluten</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/milk.png" alt="Melk"><!-- Freepik. (ukjent). Milk  [Bilde av Melk ]. flaticon.https://www.flaticon.com/free-icons/milk -->
+                <span>Melk</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/nuts.png" alt="Nøtter"><!-- Freepik. (ukjent). Nuts  [Bilde av nøtter ]. flaticon.https://www.flaticon.com/free-icons/nuts -->
+                <span>Nøtter</span>
+              </div>
+            </div>
+            <span class="pris">59,-</span>
+        </div>  
+        
+        <div class="rett" id="dessert2" >
+            <img class="bilder" id="gulrotkake" src="./../Bilder/kafe/gulrotkake.jpg" alt="Gulrotkake"> </img> <!-- Alexa. (March 2, 2018). Cakes [Bilde av gulrotkake ]. Pixabay. https://pixabay.com/no/photos/kaker-gulrotkake-kjempegod-m%C3%A5ltid-3128876/-->
+            <h1 class="rett-tittel">Gulrotkake</h3>
+            <p> Hjemmelaget gulrotkake.</p>
+            <div class="allergener">
+              <div class="allergen">
+                <img src="./../Bilder/kafe/hvete.png" alt="Gluten"><!-- Freepik. (ukjent). Gluten  [Bilde av Gluten ]. flaticon.https://www.flaticon.com/free-icons/Gluten -->
+                <span>Gluten</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/milk.png" alt="Melk"><!-- Freepik. (ukjent). Milk  [Bilde av Melk ]. flaticon.https://www.flaticon.com/free-icons/milk -->
+                <span>Melk</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/fried-egg.png" alt="Egg"><!-- Freepik. (ukjent). Egg  [Bilde av Egg ]. flaticon.https://www.flaticon.com/free-icons/egg -->
+                <span>Egg</span>
+              </div>
+              <div class="allergen">
+                <img src="./../Bilder/kafe/carrot.png" alt="Gulrot"><!-- Freepik. (ukjent). Carrot  [Bilde av Gulrot ]. flaticon.https://www.flaticon.com/free-icons/carrot -->
+                <span>Gulrot</span>
+              </div>
+            </div>
+            <span class="pris">59,-</span>
+        </div>
+    </div>
+    </div>
+     <!--Her slutter koden for dessert-->  
+
+      <!--Her starter koden for informasjon-siden-->  
+    <div class="info mat">
+      
+        <div id="apning">
+        <h1>Åpningstider:</h1>
+        <p>Mandag - Fredag: 10.00-16.00</p>
+        <p>Lørdag: 10.00-17.00</p>
+        <p>Søndag <em>Stengt</em></p>
+        </div>
+        
+        <div id="kontakt">
+          <h1>Oslomet Kafé</h1>
+          <p><a href="https://goo.gl/maps/yuLzmhw4EvEcXRa78" tabindex="0"; target="_blank" title="Finn vår addresse">Skomværsgata 2</a></p>
+          <p><a href="https://goo.gl/maps/yuLzmhw4EvEcXRa78" tabindex="1"; target="_blank" title="Finn vår addresse">3921 Porsgrunn</a></p>
+          <p>Daglig leder: Younes Benhaida</p>
+          <p>E-post: <a href="mailto: oslometkafe@yahoo.com" tabindex="2"; target="_blank" title="Her er vår epost-addresse">oslometkafe@yahoo.com</a></p>
+          <p>Telefon:<a href="tel:+4794204200" tabindex="3"; target="_blank" title="Ring oss her"> +47 94204200</a></p>
+        </div>
+    </div>
+     <!--Her slutter koden for informasjon-siden-->  
+    
+</div>
+ <!--Her slutter div ="retter" som gjør det slik at de ulike rettene kommer ved siden av menyen, og ikke under.-->  
+
+  <!--Her er script koden som tar ansvar for funksjonaliteten til nettsiden.-->  
+<script src="./../JS/index.js" type="text/javascript"></script>
+</body>
+</html>
