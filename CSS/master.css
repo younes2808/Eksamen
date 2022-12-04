@@ -390,8 +390,8 @@ width: 100%;
 @media (max-width: 992px) {
 .rett {
 position: relative;
-width: 90%;
-height: 90%;
+width: 100%;
+height: 100%;
 grid-template-columns: auto;
 text-align: center;
 right:14.2rem;
