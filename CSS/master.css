@@ -400,15 +400,13 @@ top: 7rem;
 float: left;
 padding: 0.1rem;
 padding-bottom: 2rem;
+margin-left: 2%;
 }
 .rett p{
 font-size: 1.6rem;
 }
 .rett img{
 height: 15vw;
-}
-.rett:nth-child(odd){
-margin-left: none;
 }
 .rett-tittel{
 font-size: 2rem;
