@@ -104,7 +104,7 @@ a.active,a:hover{
     top: 1rem;
   }
   .sidebar a{
-    display: inline-block;
+    display: none;
     background-color: #1e1e1e;
     height: 100%;
     width: 100%;
