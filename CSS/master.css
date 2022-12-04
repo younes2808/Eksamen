@@ -264,7 +264,7 @@ margin-left: 10%;
 /* CSS for div rett i kafe.html*/
 .rett {
   width: 33%;
-  height: 31.9rem;
+  height: 33.9rem;
   margin: 16px;
   text-align: center;
   float: left;
@@ -402,8 +402,11 @@ padding: 0.1rem;
 padding-bottom: 2rem;
 }
 .rett:nth-child(even){
-margin-left: 10%;
-}    
+margin-left: 2%;
+}  
+rett:nth-child(odd){
+margin-left: 2%;
+}  
 .rett p{
 font-size: 1.6rem;
 }
